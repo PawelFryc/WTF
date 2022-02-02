@@ -172,12 +172,12 @@ div[class$="dla-dziecka"] {
   flex-direction: row;
   justify-content:space-evenly;
   flex-wrap: wrap;
-  0
+
 }
 
 .ogloszenie {
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   width: 20%;
   background-color: #f2f4f5;
 }
