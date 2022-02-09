@@ -64,22 +64,38 @@ body {
 }
 .search {
   margin: 0 auto;
-  margin-top: 30px;
-  width: 640px;
-  height: 40px;
+  padding-top: 40px;
+  width: 1260px;
+  height: 50px;
   display: grid;
-  grid-template-columns: 520px 120px;
+  grid-template-columns: 60% 25% 15%;
   justify-content: center;
 }
 .poleWyszukiwania {
-  border: solid 4px #002f34;
+  border: solid 2px #002f34;
   border-radius: 10px 0px 0px 10px;
   font-size: 1em;
+  color: #002f34;
+  font-weight: 900;
   background-color: #f2f4f5;
 }
+
+#lokalizacja {
+  border: solid 2px #002f34;
+  border-style: ;
+  font-size: 1em;
+  color: #002f34;
+  font-weight: 900;
+  background-color: #f2f4f5;
+  /* Zmiana defultowego stylu (strzałka)
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none; */
+}
+
 .searchButton {
-  background-color: #002f34;
-  border: solid 4px #002f34;
+  background-color: rgba(0, 47, 53, 0.9);
+  border: solid 2px rgba(0, 47, 53, 0.9);
   color: #f2f4f5;
   font-weight: bolder;
   font-size: 1em;
@@ -102,6 +118,7 @@ body {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
+  color: #002f34;
 }
 .main-categories-list {
   margin: 0 auto;
@@ -111,6 +128,8 @@ body {
   justify-content: center;
   text-align: center;
   font-size: 18px;
+  font-weight: bold;
+  color: #002f34;
 }
 .second-categories-list {
   margin: 0 auto;
@@ -121,6 +140,8 @@ body {
   text-align: center;
   font-size: 18px;
   padding-top: 40px;
+  font-weight: bold;
+  color: #002f34;
 }
 div[class^="category"] {
   width: 150px;
@@ -132,6 +153,7 @@ div[class^="category"] {
   font-size: 32px;
   padding: 40px;
   font-weight: bold;
+  color: #002f34;
 }
 #ogloszenia {
   width: 1400px;
@@ -246,13 +268,54 @@ div[class$="dla-dziecka"] {
   padding-top: 5%;
   padding-bottom: 10%;
   font-size: 18px;
+  font-weight: bold;
+  color: #002f34;
 }
 .ogloszenie .cena {
   padding-top: 6%;
   padding-bottom: 1%;
+
   font-size: 18px;
+  color: #002f34;
+  font-weight: bold;
 }
 .ogloszenie .lokalizacja {
   padding-bottom: 1%;
   font-size: smaller;
+  color: #002f34;
+}
+
+.footer {
+  background: #002f34;
+  margin-top: 50px;
+}
+.footerBanner ul {
+  margin: 0 auto;
+  height: 120px;
+  width: 1260px;
+  font-size: 25px;
+  color: #f2f4f5;
+  font-weight: bolder;
+  display: grid;
+  grid-template-columns: 30% 25%;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 6%;
+}
+.footerBanner .details {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #002f34;
+  font-weight: bold;
+  background: #f2f4f5;
+  border-radius: 10px;
+  border: solid 6px #f2f4f5;
+}
+.footerBanner .details:hover {
+  color: #f2f4f5;
+  background: #002f34;
+  border: solid 6px #f2f4f5;
+  cursor: pointer;
 }
