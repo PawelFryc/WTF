@@ -27,7 +27,7 @@ body {
   background: rgb(231, 228, 228);
 }
 #banner {
-  background: #002f34;
+  background: rgb(0, 47, 52);
 }
 
 #banner ul {
@@ -319,3 +319,67 @@ div[class$="dla-dziecka"] {
   border: solid 6px #f2f4f5;
   cursor: pointer;
 }
+
+.footer-lower {
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: #90d7df;
+  height: 480px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer-lower > h1 {
+font-size: 2em;
+font-weight: bolder;
+color: #002f34;
+height: fit-content;
+
+}
+
+.footer-lower > h2 {
+  margin:  0 auto;
+  width: 1260px;
+  height: fit-content;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  color: #002f34;
+  
+}
+
+.footer-lower > p {
+  color: #002f34;
+  font-size: 1.5em;
+  font-weight: bolder;
+  height: fit-content;
+  font-weight: 600;
+  cursor: pointer;
+}
+.credits {
+  width: 1260px;
+  height: 480px;
+margin-bottom: 250px;
+padding: 50px;
+line-height: 2em;
+  margin: 0 auto;
+  color: #002f34;
+  font-size: 1em;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ justify-content: start;
+ align-content:start;
+}
+
+.credits p {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+  
+}
+
